@@ -8,7 +8,7 @@ import androidx.room.RoomDatabase
 @Database(
     entities = [ConversationEntity::class, MessageEntity::class, MessageFtsEntity::class],
     version = 1,
-    exportSchema = true,
+    exportSchema = false,
 )
 abstract class VoicesDatabase : RoomDatabase() {
     abstract fun conversationDao(): ConversationDao

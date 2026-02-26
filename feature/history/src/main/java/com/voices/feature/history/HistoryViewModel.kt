@@ -33,6 +33,7 @@ class HistoryViewModel(
     companion object {
         fun factory(chatStore: ChatStore): ViewModelProvider.Factory {
             return object : ViewModelProvider.Factory {
+                @Suppress("UNCHECKED_CAST")
                 override fun <T : ViewModel> create(modelClass: Class<T>): T {
                     return HistoryViewModel(chatStore) as T
                 }

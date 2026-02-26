@@ -21,6 +21,12 @@ Android multi-module scaffold for a multi-model AI chat app.
 
 ## Run on Android (CLI)
 
+If this is a fresh container/machine, set up Android SDK first:
+
+```bash
+bash scripts/setup-android-sdk.sh
+```
+
 If `gradlew` is missing in your clone, generate it once:
 
 ```bash
