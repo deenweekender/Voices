@@ -1,0 +1,78 @@
+# Gradle
+.gradle/
+build/
+*.jar
+*.aar
+
+# Android Studio
+.idea/
+*.iml
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+.classpath
+.project
+.settings/
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/settings.json
+.vscode/launch.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Build outputs
+app/build/
+core/*/build/
+feature/*/build/
+
+# Signed APKs
+*.released.apk
+*.signed.apk
+
+# Lint results
+lint-results.html
+lint-results.xml
+
+# Room schemas
+core/database/schemas/
+
+# Kotlin
+.kotlinc/
+
+# Firebase
+google-services.json
+
+# Firebase emulator
+.emulatorrc
+
+# Misc
+.env
+*.log
+.gradle.properties.bak
